@@ -5,8 +5,8 @@ from flask_basicauth import BasicAuth
 app = Flask(__name__)
 
 # Basic authentication configuration
-app.config['BASIC_AUTH_USERNAME'] = 'root'
-app.config['BASIC_AUTH_PASSWORD'] = ''
+app.config['BASIC_AUTH_USERNAME'] = 'username'
+app.config['BASIC_AUTH_PASSWORD'] = 'password'
 basic_auth = BasicAuth(app)
 
 

@@ -11,7 +11,7 @@ books = [
 ]
 
 # Replace 'your_api_key' with your actual API key
-API_KEY = '123'
+API_KEY = 'your_api_key'
 
 # API key authentication decorator
 def require_api_key(func):

@@ -27,7 +27,7 @@ def login():
     password = data.get('password', None)
 
     # In a real-world scenario, you would check the credentials against a database
-    if username == 'root' and password == '':
+    if username == 'user' and password == 'pass':
         access_token = create_access_token(identity=username)
         return jsonify(access_token=access_token), 200
     else:
